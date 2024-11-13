@@ -113,6 +113,11 @@ img {
 .main-page {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/hero-image/people-office.jpg);
+  background-position: center center;
 }
 
 .main-titel {
@@ -171,7 +176,15 @@ img {
   display: flex;
   gap: 24px;
  }
+ .icon{
 
+}
+.icon-wrapper{
+  padding: 20px 100px; 
+  border: 1px solid #8e8f99;
+border-radius: 4px;
+background-color: #f4f4fd;
+}
 .benefits-item {
   width: calc((100% - 72px) / 4);
 }
@@ -241,6 +254,23 @@ img {
   text-align: center;
   color: #434455;
   background-color: #ffffff;
+  }
+
+  .team-sotial-icon{
+display: flex;
+gap: 24px;
+align-items: center;
+justify-content: center;
+margin-top: 8px;
+  }
+  .team-sotial-icon .link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
   }
 
 .portfolio{
