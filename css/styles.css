@@ -164,12 +164,12 @@ background-color: #404bbf;
   padding: 16px 32px;
   border-radius: 4px;
   margin: 48px auto 0;
-  transition: color 250ms rgba(46, 47, 66, 0.7);
+  transition: background-color 250ms rgba(46, 47, 66, 0.7);
   }
 
 .main-button:focus,
 .main-button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .benefits{
