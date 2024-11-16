@@ -145,10 +145,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: 2e2F42;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 191px;
   max-width: 496px;
 }
 
@@ -258,8 +256,7 @@ img {
 }
 .team-descr {
   padding: 32px 0;
-  margin-bottom: 8px;
-}
+  }
 .name {
   font-weight: 500;
   font-size: 20px;
@@ -278,6 +275,7 @@ img {
   text-align: center;
   color: #434455;
   background-color: #ffffff;
+  margin-bottom: 8px;
 }
 
 .social-link{
